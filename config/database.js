@@ -2,11 +2,11 @@ module.exports = ({ env }) => ({
   connection: {
     client: env("DATABASE_TYPE"),
     connection: {
-      host: env("DATABASE_HOST"),
-      port: env.int("DATABASE_PORT"),
-      database: env("DATABASE_NAME"),
-      user: env("DATABASE_USERNAME"),
-      password: env("DATABASE_PASSWORD"),
+      host: env("PGHOST"),
+      port: env.int("PGPORT"),
+      database: env("PGNAME"),
+      user: env("PGUSERNAME"),
+      password: env("PGPASSWORD"),
       ssl: env.bool("DATABASE_SSL"),
     },
   },
