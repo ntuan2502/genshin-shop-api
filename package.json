@@ -5,6 +5,7 @@
   "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
+    "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
@@ -15,6 +16,7 @@
     "@strapi/plugin-users-permissions": "4.5.4",
     "@strapi/provider-upload-cloudinary": "^4.5.4",
     "@strapi/strapi": "4.5.4",
+    "mysql": "^2.18.1",
     "pg": "8.6.0"
   },
   "author": {
